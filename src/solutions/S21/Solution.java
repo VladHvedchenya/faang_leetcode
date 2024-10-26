@@ -42,3 +42,6 @@ class Solution {
         return dummy.next;
     }
 }
+
+//Time Complexity: O(n)
+//Space Complexity: O(n)

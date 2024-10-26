@@ -28,3 +28,6 @@ public class Solution {
         return map.get(head);
     }
 }
+
+//Time Complexity: O(n)
+//Space Complexity: O(n)

@@ -1,4 +1,4 @@
-package solutions.S138;
+package solutions.LinkedList.S138;
 
 public class Node {
     int val;

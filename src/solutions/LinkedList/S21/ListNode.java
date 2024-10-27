@@ -1,4 +1,4 @@
-package solutions.S206;
+package solutions.LinkedList.S21;
 
 public class ListNode {
       int val;

@@ -1,9 +1,9 @@
-package solutions.S1290;
+package solutions.LinkedList.S141;
 
 public class ListNode {
       int val;
-      public ListNode next;
+      ListNode next;
       ListNode() {}
-      public ListNode(int val) { this.val = val; }
+      ListNode(int val) { this.val = val; }
       ListNode(int val, ListNode next) { this.val = val; this.next = next; }
   }

@@ -1,4 +1,4 @@
-package solutions.S138;
+package solutions.LinkedList.S138;
 
 import java.util.HashMap;
 import java.util.Map;

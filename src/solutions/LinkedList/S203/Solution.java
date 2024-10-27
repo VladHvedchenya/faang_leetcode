@@ -1,4 +1,4 @@
-package solutions.S83;
+package solutions.LinkedList.S203;
 
 /**
  * Definition for singly-linked list.
@@ -11,16 +11,15 @@ package solutions.S83;
  * }
  */
 class Solution {
-    public ListNode deleteDuplicates(ListNode head) {
-        if (head == null)
-            return null;
-        if (head.next == null)
-            return head;
+    public ListNode removeElements(ListNode head, int val) {
+        while (head != null && head.val == val){
+            head = head.next;
+        }
 
         ListNode curr = head;
 
-        while (curr.next != null){
-            if (curr.val == curr.next.val)
+        while (curr != null && curr.next != null){
+            if (curr.next.val == val)
                 curr.next = curr.next.next;
             else
                 curr = curr.next;
@@ -30,5 +29,5 @@ class Solution {
     }
 }
 
-//Time Complexity: O(n)
+//Time Complexity: O(1)
 //Space Complexity: O(1)

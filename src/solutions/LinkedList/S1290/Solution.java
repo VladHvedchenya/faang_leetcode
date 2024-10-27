@@ -1,4 +1,4 @@
-package solutions.S1290;
+package solutions.LinkedList.S1290;
 
 public class Solution {
     public int getDecimalValue(ListNode head) {

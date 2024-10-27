@@ -1,4 +1,4 @@
-package solutions.S206;
+package solutions.LinkedList.S206;
 
 /**
  * Definition for singly-linked list.

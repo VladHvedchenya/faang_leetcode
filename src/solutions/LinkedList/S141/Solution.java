@@ -1,4 +1,4 @@
-package solutions.S141;
+package solutions.LinkedList.S141;
 
 /**
  * Definition for singly-linked list.
